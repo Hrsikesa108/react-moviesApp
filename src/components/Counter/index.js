@@ -2,6 +2,8 @@ import {Component} from 'react'
 
 import './index.css'
 
+const img = '../netfilx 1.png'
+
 class Counter extends Component {
   render() {
     return (

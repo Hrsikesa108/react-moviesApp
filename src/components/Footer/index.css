@@ -1,0 +1,32 @@
+.footer-box {
+  /* position: fixed; */
+  background-color: #181818;
+  height: 80px;
+  color: white;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
+}
+
+.footer-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #ffffff;
+}

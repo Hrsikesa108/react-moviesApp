@@ -1,0 +1,88 @@
+.account-box {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 800px;
+  justify-content: center;
+}
+
+.account-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+  color: #131313;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.account-details {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  color: #94a3b8;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.para-desc {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+  color: #1e293b;
+  margin-left: 10px;
+}
+
+.para-password {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+  /* Light / blue-gray / 500 */
+  color: #64748b;
+}
+
+.ultra-p {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  height: 30px;
+  color: #1e293b;
+  border: 1px solid black;
+  border-radius: 1px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.logoutBtn {
+  padding: 8px 20px;
+  background: #e50914;
+  border-radius: 4px;
+  width: 80px;
+  align-self: center;
+  cursor: pointer;
+}
