@@ -23,17 +23,19 @@ export default class Home extends Component {
 
   componentDidMount() {
     this.loadData()
+    const a = Cookies.get('jwt-token')
+    console.log('jwt', a)
   }
 
   loadData = async () => {
     const options = {
       headers: {
-        Authorization: `Bearer ${Cookies.get('jwt_token')}`,
+        Authorization: `Bearer ${Cookies.get('jwt-token')}`,
       },
       method: 'GET',
     }
 
-    const response = await fetch(popularMoviesApi, options)
+    const response = await fetch(trendingApi, options)
     const data = await response.json()
     console.log('data', data)
   }
